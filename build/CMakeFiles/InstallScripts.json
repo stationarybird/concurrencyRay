@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/willi/Documents/quant/build/cmake_install.cmake"
+		"/Users/willi/Documents/concurrencyRay/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

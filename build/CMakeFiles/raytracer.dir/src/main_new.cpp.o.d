@@ -1,5 +1,5 @@
-CMakeFiles/raytracer.dir/src/main.cpp.o: \
-  /Users/willi/Documents/concurrencyRay/src/main.cpp \
+CMakeFiles/raytracer.dir/src/main_new.cpp.o: \
+  /Users/willi/Documents/concurrencyRay/src/main_new.cpp \
   /Users/willi/Documents/concurrencyRay/include/application.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
@@ -801,9 +801,9 @@ CMakeFiles/raytracer.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/os/availability.h \
   /Users/willi/Documents/concurrencyRay/include/camera.hpp \
   /Users/willi/Documents/concurrencyRay/include/vec3.hpp \
-  /Users/willi/Documents/concurrencyRay/include/ray.hpp \
   /Users/willi/Documents/concurrencyRay/include/scene.hpp \
   /Users/willi/Documents/concurrencyRay/include/sphere.hpp \
+  /Users/willi/Documents/concurrencyRay/include/ray.hpp \
   /Users/willi/Documents/concurrencyRay/include/renderer.hpp \
   /Users/willi/Documents/concurrencyRay/include/render_buffer.hpp \
   /Users/willi/Documents/concurrencyRay/include/thread_pool.hpp \
