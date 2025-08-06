@@ -1,15 +1,15 @@
-# Real-Time Ray Tracer
+# Ray Tracer
 
 A real-time ray tracing application built in C++ using OpenGL/GLFW, featuring multi-threaded rendering and interactive camera controls.
+
+https://github.com/user-attachments/assets/7da4012d-1259-46fb-9230-f258f0d5ff93
 
 ## Features
 
 - Real-time ray tracing with interactive camera controls
 - Multi-threaded rendering using a custom thread pool
-- Progressive refinement rendering for better performance
-- Basic lighting with ambient and diffuse components
+- Basic lighting
 - Interactive camera controls (WASD for movement, mouse for looking around)
-- Fullscreen display support
 
 ## Technical Details
 
@@ -24,40 +24,16 @@ A real-time ray tracing application built in C++ using OpenGL/GLFW, featuring mu
 - Multi-threaded rendering for optimal performance
 - Progressive refinement rendering (lower resolution with scaling)
 
-## Building the Project
-
-### Prerequisites
-- C++ compiler with C++11 support
-- CMake
-- OpenGL
-- GLFW
-
 ### Build Steps
 ```bash
 mkdir build
 cd build
 cmake ..
 make
+./raytracer
 ```
 
 ## Controls
 - WASD: Camera movement
 - Mouse: Look around
 - ESC: Exit
-
-## Project Structure
-```
-concurrencyRay/
-├── include/
-│   ├── camera.hpp
-│   ├── ray.hpp
-│   ├── vec3.hpp
-│   ├── sphere.hpp
-│   └── scene.hpp
-├── src/
-│   └── main.cpp
-└── CMakeLists.txt
-```
-
-## License
-This project is open source and available under the MIT License.
