@@ -10,6 +10,7 @@ https://github.com/user-attachments/assets/7da4012d-1259-46fb-9230-f258f0d5ff93
 - Multi-threaded rendering using a custom thread pool
 - Basic lighting
 - Interactive camera controls (WASD for movement, mouse for looking around)
+- Averages ~30 FPS 1080p display
 
 ## Technical Details
 
