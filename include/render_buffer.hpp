@@ -52,7 +52,6 @@ inline void RenderBuffer::resize(int width, int height)
     pixels_.resize(width * height * 3);
     clear();
 
-    // Update texture size
     glBindTexture(GL_TEXTURE_2D, texture_id_);
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width_, height_, 0, GL_RGB, GL_UNSIGNED_BYTE, nullptr);
 }

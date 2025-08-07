@@ -73,6 +73,7 @@ inline void Renderer::render_chunk(const Scene &scene, const Camera &camera,
     const int width = buffer.get_width();
     const int height = buffer.get_height();
 
+    //threads each render a group of rows
     for (int j = start_row; j < end_row; ++j)
     {
         for (int i = 0; i < width; ++i)
